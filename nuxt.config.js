@@ -1,12 +1,17 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  static:'target',
+  ssr: false,
+  generate: {
+    fallback: true
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - cv',
+
     title: 'cv',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'tr'
     },
     meta: [
       { charset: 'utf-8' },
