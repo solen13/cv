@@ -1,16 +1,16 @@
 <template>
-    <v-row>
-      <v-col lg="3"  md="6">
-        <silder :data="getData"/>
+  <div class="contener">
+
+    <v-row style="width:100%">
+      <v-col  lg="3"  md="6">
+        <silder  :data="getData"/>
       </v-col>
 
       <v-col lg="9" md="6" >
-        <div class="mb-2"  >
           <banner-a :data="getData"/>
-        </div>
       </v-col>
     </v-row>
-
+  </div>
 </template>
 
 <script>
@@ -32,6 +32,10 @@ export default {
 <style scoped>
 .banner-content{
   display: flex;
+
+}
+.contener{
+  width: 100%;
 
 }
 </style>

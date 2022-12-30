@@ -1,6 +1,9 @@
 <template>
    <v-card max-width="100%" height="100%"  class="blue">
-
+     <div class="hidden-md-and-up ">
+       <a  class="grey pa-2 rounded white--text text-decoration-none mb-4" href="/cv.pdf" download>Cv Dowland</a>
+       <language class="mt-4"/>
+     </div>
       <span class="image" >
         <img  src="/profile.jpg"/>
       </span>
@@ -59,8 +62,10 @@
 
 <script>
 
+import Language from "@/components/lang";
 export default {
   name: "silder",
+  components: {Language},
   props:{
     data:{
       type:Object,

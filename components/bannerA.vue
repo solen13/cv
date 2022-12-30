@@ -2,10 +2,10 @@
   <v-card max-width="100%" elevation="0" style="position: relative">
     <div style="width: 100%">
 
-
-     <language/>
-      <a  class="grey pa-2 rounded white--text text-decoration-none" href="/cv.pdf" download>Cv Dowland</a>
-
+      <div class="hidden-md-and-down">
+        <language/>
+        <a  class="grey pa-2 rounded white--text text-decoration-none" href="/cv.pdf" download>Cv Dowland</a>
+      </div>
        <h1 class="text-center">{{data.header.title}}</h1>
        <h3 class="text-center">{{data.header.subTitle}}</h3>
 
