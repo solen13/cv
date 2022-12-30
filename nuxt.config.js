@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-
+import i18n from './plugins/i18n'
 export default {
   static:'target',
   ssr: false,
@@ -38,12 +38,15 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n',
+
   ],
+  i18n,
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

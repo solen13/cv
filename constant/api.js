@@ -4,48 +4,48 @@ const api={
      subTitle:'FRONTEND + NUXT JS'
    },
    'amacim':{
-    name:'Amacım',
+    title:'amamcim',
     icon:'mdi-account',
-    content:'Yenilikçi Frontend becerilerimi, uzmanlığımı ve deneyimlerimi ekibiniz ve değerli müşterilerinizle paylaşmayı umuyorum.'
-  },
+    content:'amaccontent'
+   },
    'projeler':{
     name:'projelerim',
     icon: 'mdi-projector-screen-outline',
     content:[
       {
-        title:'E-ticaret',
+        title:'eticaret',
         subTitle:'Nuxt-js, Vuetify, SCSS, Axios',
         href:'https://e-commerce-solen13.vercel.app/'
       },
       {
-        title:'Fotoğraf galerisi',
+        title:'photoGallery',
         href:'https://photo-galery-vuetfiy.vercel.app/',
         subTitle: 'Nuxt-js,Vuetify,Axios'
       },
       {
-        title:' Türkçe Sözlük',
+        title:'turkcesozluk',
         subTitle: 'Nuxt-js, Vuetify,Axios',
         href:'https://turkish-dictionary.vercel.app/'
 
       },
       {
-        title:' Instagram Clone ',
+        title:'Instagram',
         subTitle: 'Nuxt js,Vuetify,PWA,CSS',
         href:'https://clone-instagram-app.netlify.app/'
       },
       {
-        title:'Course Clone ',
+        title:'Course',
         subTitle: 'Nuxt-js,CSS,SCSS',
         href:'newss-neon.vercel.app/'
       },
       {
-        title:'Fish World',
+        title:'FishWorld',
         subTitle: 'Nuxt-js, Axios, Vuetify',
         href:'https://fish-worlds.netlify.app/'
       },
 
       {
-        title:'Freelance iş',
+        title:'Freelance',
         sorce:[
           {
             title:'Elif-Ba app',
@@ -58,8 +58,6 @@ const api={
             href:'https://solen13.github.io/pastaneqr/'
           }
         ],
-
-
       }
 
 
@@ -67,61 +65,63 @@ const api={
 
      },
    'egitim':{
-    name:'Eğitim',
+    name:'egtim',
     icon:'mdi-book-open-page-variant-outline',
     school:[
       {
-        schoolName:'Van Yüzüncüyıl Üniversitesi',
+        schoolName:'schoolName1',
         date:'09.2018-07.2022',
-        department:'Antropoloji',
-        fakulte:'Edebiyat'
+        department:'department1',
+        fakulte:'fakulte1'
 
       },
       {
-        schoolName:'Anadolu üniversitesi',
-        date:'09.2018-07.2022',
-        department:'Yönetim Bilişim Sistemleri',
-        fakulte:'İşletme(Açık öğretim)'
+        schoolName:'schoolName2',
+        date:'2019 ',
+        department:'department2',
+        fakulte:'fakulte2'
 
       },
       {
-        schoolName:'Selçuklu Anadolu lisesi (Ahlat/Bitlis)',
-        date:'09.2018-07.2022',
+        schoolName:'schoolName3',
+        date:'2013 - 2017',
       },
       {
-        schoolName:'Muzaffer İncesu İlkokul- ortaokul',
-        date:'09.2018-07.2022',
+        schoolName:'schoolName4',
+        date:'2009 - 2012',
       },
       {
-        schoolName:'Mustafa kemal Atatürk ilkokul',
-        date:'09.2018-07.2022',
+        schoolName:'schoolName5',
+        date:'2005 - 2009',
       },
     ]
   },
    'hobi': {
-    name:'Hobiler',
+    name:'hobi',
     icon: 'mdi-hexagram',
-    content:[
-      'Seyhat etmek',
-      'Yeni birşeyler öğrenmek',
-      'Yemek yapmak'
+    contents:[
+      {name:'hobi1'},
+      {name:'hobi2'},
+      {name:'hobi3'},
+      {name:'hobi4'},
+
     ],
 
   },
    'ekler':{
-    name:'Ek olarak',
+    name:'ek',
     icon: 'mdi-playlist-plus',
     content:[
-      'Sigara kullanmıyorum',
-      '20.06.22 - 16.07.22 Tarihleri arasında Antalya Gazipaşa’da ‘Antiocheia ad Cragum’ kazısında antropolog olarak bulundum.',
-      'Üniversite topluluk başkanlığı yaptım'
+      'ek1',
+      'ek2',
+      'ek3'
     ]
   },
 
   ///silder
 
   'detay':{
-    name:'Kisisel Detaylar',
+    name:'kisisel',
     contack:[
       {
         icon:'mdi-map-marker',
@@ -142,10 +142,10 @@ const api={
   },
 
   'yetenek':{
-    name:'Yeteneklerim',
+    name:'yetenek',
     yetkinlik:[
       {
-        title:'Kodlama Bilgim',
+        title:'yetenek1',
         subTitle:[
           {name:'JavaScript'},
           {name:'Es6'},
@@ -153,7 +153,7 @@ const api={
         ]
       },
       {
-        title:'Web Becerilerim',
+        title:'yetenek2',
 
         subTitle:[
           {name:'Vue-js'},
@@ -167,11 +167,11 @@ const api={
 
       },
       {
-        title:'Tasarım Becerisi',
+        title:'yetenek3',
         subTitle:[{name:'Photoshop'}]
       },
       {
-        title:'IDE',
+        title:'yetenek4',
         subTitle: [
           {name:'Android Studio'} ,
           {name:'Vs Code'} ,
@@ -181,7 +181,7 @@ const api={
 
       },
       {
-        title:'Paket Yöneticisi',
+        title:'yetenek5',
         subTitle: [{name:'Git'}, {name:'Webpack'}, {name:'Npm'}]
       },
 
@@ -189,22 +189,25 @@ const api={
   },
 
   'diller':{
-    title:'Diller',
-      subTitle: [{name:'Türkçe'}, {name:'İnglizce'}]
+    title:'diller',
+      subTitle: [
+        {name:'dil1'},
+        {name:'dil2'}
+      ]
   },
 
   'Sertifikalar':{
     title:'Sertifikalar',
       subTitle:[
-    {name:'A1 ingilizce'},
-    {name:'Robotik kodlama'},
-    {name:'Grafik ve Animasyon'}
+    {name:'sertifikalar1'},
+    {name:'sertifikalar2'},
+    {name:'sertifikalar3'}
   ]
 
   },
 
   'Online':{
-    title:'Online Platformlar',
+    title:'Online',
       subTitle: [
     {
       name:'Github',

@@ -7,7 +7,7 @@
 
      <div>
 
-       <h2 class="line">{{ data.detay.name}}</h2>
+       <h2 class="line">{{$i18n.t(data.detay.name)}}</h2>
        <ul class="pa-1">
          <li class="pa-2" v-for="i in data.detay.contack">
            <a  class="d-flex" :href="i.href">
@@ -17,12 +17,12 @@
          </li>
        </ul>
 
-       <h2 class="line"> {{data.yetenek.name}}</h2>
+       <h2 class="line"> {{$i18n.t(data.yetenek.name) }}</h2>
 
        <ul class="lists">
          <li  v-for="item in  data.yetenek.yetkinlik" >
 
-          <h2 class="title">{{item.title}}</h2>
+          <h2 class="title">{{ $i18n.t(item.title)}}</h2>
 
            <div class="pt-1" v-for="i in item.subTitle">
              {{i.name}}
@@ -31,19 +31,24 @@
        </ul>
 
 
-       <h2 class="line">{{data.diller.title}}</h2>
+       <h2 class="line">{{$i18n.t(data.diller.title)}}</h2>
        <ul class="mt-2 pa-2">
-         <li v-for="item in data.diller.subTitle">{{item.name}}</li>
+         <li v-for="item in data.diller.subTitle">{{$i18n.t(item.name)}}</li>
        </ul>
 
-       <h2 class="line">{{data.Online.title}}</h2>
+       <h2 class="line">{{$i18n.t(data.Online.title)}}</h2>
        <ul class="mt-2 pa-2">
-         <li class="mt-1" v-for="item in data.Online.subTitle"><span>{{item.name}}</span> <a class="red--text" :href="item.href">{{item.href}}</a></li>
+
+         <li class="mt-1" v-for="item in data.Online.subTitle">
+           <span>{{$i18n.t(item.name)}}</span>
+           <a class="red--text" :href="item.href">{{item.href}}</a>
+         </li>
+
        </ul>
 
-       <h2 class="line">{{data.Sertifikalar.title}}</h2>
+       <h2 class="line">{{ $i18n.t(data.Sertifikalar.title)}}</h2>
        <ul class="mt-2 pa-2" >
-         <li v-for="item in data.Sertifikalar.subTitle">{{item.name}}</li>
+         <li v-for="item in data.Sertifikalar.subTitle">{{ $i18n.t(item.name)}}</li>
        </ul>
 
 
