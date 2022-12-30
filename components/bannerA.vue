@@ -4,7 +4,7 @@
 
 
      <language/>
-      <a  class="grey pa-2 rounded white--text text-decoration-none" href="./static/cv.pdf" download>Cv Dowland</a>
+      <a  class="grey pa-2 rounded white--text text-decoration-none" href="/cv.pdf" download>Cv Dowland</a>
 
        <h1 class="text-center">{{data.header.title}}</h1>
        <h3 class="text-center">{{data.header.subTitle}}</h3>
